@@ -95,7 +95,7 @@ keyboard:
   model: pc105
   layout: "de"
 users:
-  - name: strelok
+  - name: <Username>
     groups: users,adm,dialout,audio,netdev,video,plugdev,cdrom,games,input,gpio,spi,i2c,render,sudo
     shell: /bin/bash
     lock_passwd: false
@@ -144,7 +144,7 @@ nmap -sn 192.168.2.0/24
 8. Connect via SSH:
 
 ```bash
-ssh strelok@<ip>
+ssh <Username>@<ip>
 ```
 
 ---
